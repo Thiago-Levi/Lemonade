@@ -69,7 +69,7 @@ fun HeaderApp(headerTopColor: Int = R.color.main_color) {
 
 @Composable
 fun TapImagesApp() {
-    //fazer com que a imagem e o texto mudem ao clicar na imagem. Fluxo completo
+    //fazer com que a imagem e o texto também mudem ao clicar na imagem. Fluxo completo
     var currentImage by remember { mutableStateOf(R.drawable.lemon_tree) }
     var currentText by remember { mutableStateOf(R.string.lemon_tree_legend) }
 
